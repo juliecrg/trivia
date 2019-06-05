@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+    <title>Trivia</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <center>
+    <h1 class= hello>¡¡ Hola !!</h1>
+    <p></p>
+
+    <form name='botones'id="formularioNombre">
+      <h2 class= 'textTwo' id= 'print-name'> ¿Cómo te llamas? </h2>
+      <h1><!-- input id='user-name'class='inputStyle' placeholder='Escribe tu nombre' type='text' required-->
+          <input id='user-name'class='inputStyle' type='text' required></input>
+      <button id="botonEnviar" type="button">Enviar</button><br>
+    </form>
+
+    <form name="formCanciones" id="formCanciones">
+      <div id="obj1">
+        <p>¿Qué cantante tambien era conocido como The Big O?</p>
+        <p><input type= "radio" id="res1" class="datos" value="Elvis" name="question1"/>Elvis </p>
+        <p><input type= "radio" id="res2" class="datos" value="Roy Orbison" name="question1"/>Roy Orbison </p>
+        <p><input type= "radio" id="res3" class="datos" value="Valentin Elizalde" name="question1"/>Valentin Elizalde</div></p>
+    <p></p>
+      <div id="obj2">
+        <p>¿Cuál de estos es el nombre de un album de los Beatles?</p>
+        <p><input type= "radio" id="res1" class="datos" value="Candlestick" name="question2"/>Candlestick </p>
+        <p><input type= "radio" id="res2" class="datos" value="Lead Piping" name="question2"/>Lead Piping</p>
+        <p><input type= "radio" id="res3" class="datos" value="Revolver" name="question2"/>Revolver</div> </p><!--respuesta correcta-->
+      <p></p>
+    <div id="obj3">
+        <p>¿Cuál era el nombre de Tchaikovsky?</p>
+        <p><input type= "radio" id="res1" class="datos" value="Pyotr" name="question3"/>Pyotr <!-- correcta-->
+        <p><input type= "radio" id="res2" class="datos" value="Josef" name="question3"/>Josef</p>
+        <p><input type= "radio" id="res3" class="datos" value="Yuri" name="question3"/>Yuri</div></p>
+      <div id= "botones" class="botones">
+      <p></p><button id="botonEvaluar" type="button">Evaluar</button></div>
+    </form>
+
+    <script type="text/javascript" src="app.js"></script>
+  </center>
+  </body>
+</html>
