@@ -1,0 +1,52 @@
+.bodyprincipal {
+  background-color: #FFF5F5;
+ font-family: "Helvetica", sans-serif, serif;
+
+.textOne {
+
+}
+
+.textTwo {
+font-weight: 100;
+font-stretch: condensed;
+font-style: italic;
+
+}
+
+.textOne {
+  font-weight: 500;
+
+
+}
+
+header { margin:5px;margin-bottom:15px;padding:8px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:blue
+}
+footer {
+  font-style:italic;
+  font-size:0.8em;
+}
+section {
+  margin-left:25px;
+  ont-style:normal;
+  background-color:lightgrey;
+}
+article {
+  margin-left:25px;
+  font-style:normal;
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+aside {
+  background-color:#ddd;
+}
+nav ul {
+  margin:0;padding:0; background-color:#a44
+}
+nav ul li {
+  display:inline; margin:15px;
+}
+p {
+  color:black;
+}
