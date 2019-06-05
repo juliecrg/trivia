@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+    <title>Trivia</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <center>
+        <!--  box  -->
+      <div class='box'>
+    <h1 class= hello>¡¡HOLA!!</h1>
+    <p></p>
+
+    <form name='botones'id="formularioNombre">
+      <h2 class= 'textTwo' id= 'print-name'> ¿Cómo te llamas? </h2>
+      <h1><!-- input id='user-name'class='inputStyle' placeholder='Escribe tu nombre' type='text' required-->
+          <input id='user-name'class='inputStyle' type='text' required></input>
+      <p><button id="botonEnviar" type="button">Enviar</button><br> </p>
+    </form>
+
+    <form name="formCanciones" id="formCanciones">
+      <div id="obj1">
+        <p>¿Quién inventó el telescopio reflector?</p>
+        <p><input type= "radio" id="res1" class="datos" value="Galileo Galilei" name="question1"/>Galileo Galilei </p>
+        <p><input type= "radio" id="res2" class="datos" value="Isaac Newton" name="question1"/>Isaac Newton </p>
+        <p><input type= "radio" id="res3" class="datos" value="Giordano Bruno" name="question1"/>Giordano Bruno</div></p>
+    <p></p>
+
+      <div id="obj2">
+        <p>¿Qué elemento contienen todos los componentes orgánicos?</p>
+        <p><input type= "radio" id="res1" class="datos" value="Carbono" name="question2"/>Carbono </p>
+        <p><input type= "radio" id="res2" class="datos" value="Hidrogeno" name="question2"/>Hidrogeno</p>
+        <p><input type= "radio" id="res3" class="datos" value="Silicio" name="question2"/>Silicio</div> </p><!--respuesta correcta-->
+      <p></p>
+
+    <div id="obj3">
+        <p>¿Cómo se llaman las células nerviosas?</p>
+        <p><input type= "radio" id="res1" class="datos" value="Leucocitos" name="question3"/>Leucocitos </p> <!-- correcta-->
+        <p><input type= "radio" id="res2" class="datos" value="Neuronas" name="question3"/>Neuronas</p>
+        <p><input type= "radio" id="res3" class="datos" value="Adipositos" name="question3"/>Adipositos</div></p>
+
+        <div id="obj4">
+          <p>¿Quién protagonizó "Pretty Woman"?</p>
+          <p><input type= "radio" id="res1" class="datos" value="Meg Ryan" name="question4"/>Meg Ryan </p>
+          <p><input type= "radio" id="res2" class="datos" value="Julia Roberts" name="question4"/>Julia Roberts</p>
+          <p><input type= "radio" id="res3" class="datos" value="Alicia Silverstone" name="question4"/>Alicia Silverstone</div> </p><!--respuesta correcta-->
+        <p></p>
+
+        <div id="obj5">
+          <p>¿Qué compañía canadiense ha revolucionado el mundo del circo en los últimos años?</p>
+          <p><input type= "radio" id="res1" class="datos" value="Cirque du Soleil" name="question5"/>Cirque du Soleil </p>
+          <p><input type= "radio" id="res2" class="datos" value="Ringling Bros" name="question5"/>Ringling Bros</p>
+          <p><input type= "radio" id="res3" class="datos" value="New Shanghai Circus" name="question5"/>New Shanghai Circus</div> </p><!--respuesta correcta-->
+        <p></p>
+
+        <div id="obj6">
+          <p>¿En qué carnaval anual hay grandes desfiles dirigidos por escuelas de samba?</p>
+          <p><input type= "radio" id="res1" class="datos" value="Carnaval de Portugal" name="question6"/>Carnaval de Portugal </p>
+          <p><input type= "radio" id="res2" class="datos" value="Carnaval de Brasil" name="question6"/>Carnaval de Brasil</p>
+          <p><input type= "radio" id="res3" class="datos" value="Mardi Gras" name="question6"/>Mardi Gras</div> </p><!--respuesta correcta-->
+        <p></p>
+
+      <div id= "botones" class="botones">
+      <p></p><button id="botonEvaluar" type="button">Evaluar</button></div>
+
+      <h2 class= 'textTwo' id='print-score'> score: </h2>
+    </form>
+
+    <script type="text/javascript" src="app.js"></script>
+  </center>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+body {
+    font-family: "Helvetica", sans-serif;
+    color: black;
+    background-color: #F7C5BB;
+
+}
+
+#botonEnviar {
+  width: 20%;
+}
+
+#user-name {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  border-style: groove;
+  width: 40%;
+  padding: 20px 20px;
+
+
+}
+
+.box {
+  background-color: #FFFFFF;
+  width: 59%;
+  border-radius: 5px;
+  padding: 20px 20px;}
+
+.hello {
+  font-style: oblique;
+
+}
+
+.textTwo{
+  font-size: large;
+}
+
+#obj1 {
+    font-size: medium;
+    font-weight: lighter;
+
+}
+
+#obj2 {
+  font-size: medium;
+  font-weight: lighter;
+}
+
+  #obj3{
+    font-size: medium;
+    font-weight: lighter;
+  }
+
+  #obj4 {
+    font-size: medium;
+    font-weight: lighter;
+  }
+
+  #obj5 {
+    font-size: medium;
+    font-weight: lighter;
+  }
+
+  #obj6 {
+    font-size: medium;
+    font-weight: lighter;
+  }
