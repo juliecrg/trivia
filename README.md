@@ -1,6 +1,7 @@
 # Trivia Mejora
 
-#### Primer trabajo en Laboratoria: trivia de películas y canciones
+#### Primer trabajo en Laboratoria: trivia de ciencias y entretenimiento
+
 
 
 
