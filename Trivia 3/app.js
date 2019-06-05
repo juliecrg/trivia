@@ -20,30 +20,31 @@ function correct(e){
   for(let i=0; i < inputsAnswer.length; i++){
     if(inputsAnswer[i].checked){
       let respCorrect=inputsAnswer[i].value;
-        if(respCorrect === "Roy Orbison"){
-          alert("respuesta1 correcta muy bien")
+        if(respCorrect === "Isaac Newton"){
+          //alert("respuesta1 correcta muy bien")
           score ++;}
-        else if(respCorrect === "Revolver"){
-          alert("respuesta2 correcta muy bien")
+        else if(respCorrect === "Carbono"){
+          //alert("respuesta2 correcta muy bien")
           score ++;}
-        else if(respCorrect === "Pyotr"){
-          alert("respuesta3 correcta muy bien")
+        else if(respCorrect === "Neuronas"){
+          //alert("respuesta3 correcta muy bien")
           score ++;}
-        else if(respCorrect === "Titanic"){
-          alert("respuesta1 correcta muy bien")
+        else if(respCorrect === "Julia Roberts"){
+          //alert("respuesta1 correcta muy bien")
           score ++;}
-        else if(respCorrect === "Lo que el viente se llevo"){
-          alert("respuesta2 correcta muy bien")
+        else if(respCorrect === "Cirque du Soleil"){
+          //alert("respuesta2 correcta muy bien")
           score ++;}
-        else if(respCorrect === "Sean Connery"){
-          alert("respuesta3 correcta muy bien")
+        else if(respCorrect === "Carnaval de Brasil"){
+          //alert("respuesta3 correcta muy bien")
           score ++;}
         else{
       }
     }
 
   }
-  alert("obtuviste "+ score + " puntos")
+  document.getElementById('print-score').innerHTML += 'Resultado ' + score;
+  //alert("obtuviste "+ score + " puntos")
 }
 function changeSection(id){ //id recibe el id de la seccion a cambiar:
  console.log(id)
